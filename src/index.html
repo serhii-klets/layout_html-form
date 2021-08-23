@@ -14,7 +14,8 @@
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
-      onsubmit="onSubmit()">
+      onsubmit="onSubmit()"
+    >
       <fieldset>
         <legend>Personal information</legend>
 
@@ -24,7 +25,8 @@
             type="text"
             id="surname"
             name="surname"
-            required autocomplete="off">
+            required autocomplete="off"
+          >
         </div>
 
         <div class="name">
@@ -34,7 +36,8 @@
             id="name"
             name="name"
             required
-            autocomplete="off">
+            autocomplete="off"
+          >
         </div>
 
         <div class="age">
@@ -45,21 +48,24 @@
             value="12"
             min="12"
             max="100"
-            required>
+            required
+          >
         </div>
         <div class="date">
           <label for="birth_date">Full date of birth:</label>
           <input
             type="date"
             id="birth_date"
-            name="birth_date">
+            name="birth_date"
+          >
         </div>
         <div class="check">
           <label for="check_agreement">I accept the term of the agreement</label>
           <input
             type="checkbox"
             id="check_agreement"
-            required>
+            required
+          >
         </div>
       </fieldset>
 
@@ -72,7 +78,8 @@
             type="email"
             id="email"
             name="email"
-            placeholder="email@example.com">
+            placeholder="email@example.com"
+          >
         </div>
         <div class="password">
           <label for="password">Password:</label>
@@ -81,7 +88,8 @@
             id="password"
             name="password"
             minlength="6"
-            maxlength="10">
+            maxlength="10"
+          >
         </div>
       </fieldset>
 
@@ -94,13 +102,15 @@
             type="radio"
             id="like_cats_yes"
             name="like_cats"
-            value="yes">
+            value="yes"
+          >
           <label for="like_cats_yes">Yes</label>
           <input
             type="radio"
             id="like_cats_no"
             name="like_cats"
-            value="no">
+            value="no"
+          >
           <label for="like_cats_no">No</label>
         </div>
         <div class="favorite_color">
@@ -108,21 +118,24 @@
           <input
             type="color"
             name="favorite_color"
-            id="favorite_color">
+            id="favorite_color"
+          >
         </div>
         <div class="go_to_bed">
           <label for="go_to_bed">What time do you go to bed?</label>
           <input
             type="time"
             id="go_to_bed"
-            name="go_to_bed">
+            name="go_to_bed"
+          >
         </div>
         <div class="cars">
           <label for="cars">What are your favorite brend of cars?</label>
           <select
             name="cars"
             id="cars"
-            multiple>
+            multiple
+          >
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Lada">Lada</option>
@@ -135,7 +148,8 @@
             id="rate"
             name="rate"
             min="0" max="10"
-            value="0">
+            value="0"
+          >
         </div>
       </fieldset>
 
@@ -147,7 +161,8 @@
             name="comments"
             id="comments"
             cols="20"
-            rows="2">
+            rows="2"
+          >
           </textarea>
         </div>
         <div class="recommend">
